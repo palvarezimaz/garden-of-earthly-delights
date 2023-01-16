@@ -21,3 +21,8 @@ Bosch painted three large triptychs (the others are The Last Judgment of c. 1482
 
 !["The Garden of earthly delights" (1505) Hieronimus Bosch](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/800px-The_Garden_of_earthly_delights.jpg?20200528082018 'The Garden of earthly delights')
 (Source: Wikipedia)
+
+
+## Ducks game
+duck-wars.surge.sh
+I don't own ANY rights to that code, I just slightly modified it and pushed it to surge
