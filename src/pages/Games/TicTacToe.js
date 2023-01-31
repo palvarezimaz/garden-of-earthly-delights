@@ -6,7 +6,7 @@ function TicTacToe() {
     <Styled.Container>
       <div className="TicTacToe" >
         <h1>Monkey Island's TicTacToe</h1>
-        <iframe width="800" height="600"
+        <iframe width="900" height="600"
           id="monkey-tic-tac-toe" src="https://palvarezimaz.github.io/tic-tac-toe/" title="Good 'ol TicTacToe in Monkey Island Style"></iframe>
         <h2>Beat the Legendary Captain LeChuck</h2>
         <Button
