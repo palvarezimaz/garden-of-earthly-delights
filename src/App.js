@@ -4,21 +4,24 @@ import HomeMobile from "./pages/Home/HomeMobile";
 import Ducks from "./pages/Games/Ducks"
 import About from "./pages/About";
 import TicTacToe from "./pages/Games/TicTacToe";
+import RomanToNumeral from "./pages/Apps/RomanToNumeral"
 
 function App() {
   return (
     <div className="App">
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/Games/Ducks">Ducks</Link>
-        <Link to="/Games/TicTacToe">TicTacToe</Link>
+        <Link to="/games/ducks">Ducks</Link>
+        <Link to="/games/tic-tac-toe">TicTacToe</Link>
+        <Link to="/apps/roman-numbers">Roman Numbers</Link>
         <Link to="/about">About</Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<HomeMobile />} />
-        <Route path="/Games/Ducks" element={<Ducks />} />
-        <Route path="/Games/TicTacToe" element={<TicTacToe />} />
+        <Route path="/games/gucks" element={<Ducks />} />
+        <Route path="/games/tic-tac-toe" element={<TicTacToe />} />
+        <Route path="/apps/roman-numbers" element={<RomanToNumeral />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </div>
