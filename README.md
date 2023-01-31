@@ -1,18 +1,22 @@
-# Project under heavy construction
-
 # The Garden of earthly delights
+
+Tech stack: React, CSS by styled-components
 
 ## Description
 
-This app is the sum of tiny and diverse apps that I've been building during the Software Engineering Immersive Course with GA, Cohort 53.
+This app is the sum of diverse apps, REACT style, that I've been building during or after the Software Engineering Immersive Course with GA, Cohort 53.
 
-The idea is to revisit, remember, practice, implement, expand, delete, forget or revive concepts seen during the course.
+I try to use modern, industry grade build techniques: React hooks, a modern design pattern, styled components, etc
+
+The idea is to revisit, remember, practice, implement, expand, delete, forget or revive concepts seen during the course and, why not, showcase some cool REACT tricks
 
 ## Current state of development
 
 You can check the live, surge-sponsored app at [garden-of-delights.surge.sh](https://garden-of-delights.surge.sh)
 
-Under development. It may be the quintescential definition of a page that is always under development, of which there is no concept of MVP
+The current status is **Under development**.
+
+It may be the quintescential definition of a page that is always under development, of which there is no concept of MVP
 
 ## About the Name
 
@@ -24,6 +28,8 @@ Bosch painted three large triptychs (the others are The Last Judgment of c. 1482
 (Source: Wikipedia)
 
 
-## Ducks game
-www.duck-wars.surge.sh
-I don't own ANY rights to that code, I just slightly modified it and pushed it to surge
+## On the -Ducks game-
+Deployed on [duck-wars.surge.sh](www.duck-wars.surge.sh), brought to life by the lovely iframe HTML tag.
+
+*Licence notice*
+I don't own ANY rights to that code, I just slightly modified a stripped version of the game it and pushed it to surge.
