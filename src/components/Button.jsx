@@ -4,7 +4,7 @@ import GardenColors from "../config/colors";
 
 export default function Button(props) {
   return (
-    <StyledButton to={props.to} style={{ width: props.width }}>
+    <StyledButton to={props.to} style={{ width: props.width }} onClick={props.onClick}>
       {props.value}
     </StyledButton>
   )
@@ -34,7 +34,7 @@ outline: none;
 border: none;
 cursor: pointer;
 text-decoration: none;
-margin: auto;
+margin: 10px auto;
 &:hover {
   box-shadow: 5px 5px 10px 2px #0F0100;
 }

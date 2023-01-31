@@ -19,7 +19,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomeMobile />} />
-        <Route path="/games/gucks" element={<Ducks />} />
+        <Route path="/games/ducks" element={<Ducks />} />
         <Route path="/games/tic-tac-toe" element={<TicTacToe />} />
         <Route path="/apps/roman-numbers" element={<RomanToNumeral />} />
         <Route path="/about" element={<About />} />
