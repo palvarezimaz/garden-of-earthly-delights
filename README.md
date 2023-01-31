@@ -9,9 +9,10 @@ This app is the sum of tiny and diverse apps that I've been building during the 
 The idea is to revisit, remember, practice, implement, expand, delete, forget or revive concepts seen during the course.
 
 ## Current state of development
-*Status:* **on hold**
 
-I've started this project with React, but I would like to implement Next.js for this project. Soon there will be interesting changes to it.
+You can check the live app at ![garden-of-delights.surge.sh](https://garden-of-delights.surge.sh)
+
+Under development. It may be the quintescential definition of a page that is always under development, of which there is no concept of MVP
 
 ## About the Name
 
@@ -24,5 +25,5 @@ Bosch painted three large triptychs (the others are The Last Judgment of c. 1482
 
 
 ## Ducks game
-duck-wars.surge.sh
+www.duck-wars.surge.sh
 I don't own ANY rights to that code, I just slightly modified it and pushed it to surge
