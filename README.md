@@ -10,7 +10,7 @@ The idea is to revisit, remember, practice, implement, expand, delete, forget or
 
 ## Current state of development
 
-You can check the live app at ![garden-of-delights.surge.sh](https://garden-of-delights.surge.sh)
+You can check the live, surge-sponsored app at [garden-of-delights.surge.sh](https://garden-of-delights.surge.sh)
 
 Under development. It may be the quintescential definition of a page that is always under development, of which there is no concept of MVP
 
