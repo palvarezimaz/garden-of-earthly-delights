@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-import GardenColors from "../config/colors";
+import GardenColors from "../../config/colors";
 
 export default function Button(props) {
   return (

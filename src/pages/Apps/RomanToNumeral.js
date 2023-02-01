@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react"
-import * as Styled from "./styled"
-import Input from "../../components/Input";
-import Button from "../../components/Button";
+import * as Styled from "../../styles/styled"
+import Input from "../../components/elements/Input";
+import Button from "../../components/elements/Button";
 
 export default function RomanToNumeral() {
     const [number, setNumber] = useState(null);
@@ -62,7 +62,9 @@ export default function RomanToNumeral() {
 
     return (
         <Styled.Container>
-            <h1>Welcome to the Roman to Arabic number converter</h1>
+            <Styled.Header>
+                Welcome to the Roman to Arabic number converter
+            </Styled.Header>
             <fieldset>
 
                 <Input
@@ -73,9 +75,13 @@ export default function RomanToNumeral() {
                     onChange={checkRoman} />
             </fieldset>
             <fieldset>
-                <p>{correct}</p>
+                <Styled.Text>
+                    {correct}
+                </Styled.Text>
 
-                <p>{convertedNumber}</p>
+                <Styled.Text>
+                    {convertedNumber}
+                </Styled.Text>
             </fieldset>
             {/* <button onClick={NumeralToRoman}>Romanize!</button> */}
             <Button

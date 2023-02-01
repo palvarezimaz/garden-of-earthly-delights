@@ -1,4 +1,4 @@
-import GardenColors from "../config/colors";
+import GardenColors from "../../config/colors";
 
 export default function Input(props) {
     return (

@@ -1,4 +1,4 @@
-import * as Styled from "./styled"
+import * as Styled from "../../styles/styled"
 import Home from "./Home"
 
 const isMobile = window.innerWidth <= 600
@@ -10,17 +10,36 @@ export default function MobileHome() {
   return (
     <Styled.Container>
       <Styled.Wrapper>
-        <h1>Welcome, stranger!</h1>
-        <h2>This site is not optimized for Mobile use... yet.</h2>
-        <h2>Please, come back when you are using a larger screen</h2>
+        <Styled.Header>Welcome, stranger!</Styled.Header>
+        <Styled.Text>
+          This site is not optimized for Mobile use... yet. <br />
+          Please, come back when you are using a larger screen
+        </Styled.Text>
         <section>
-          <img
+          <Styled.Image
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/800px-The_Garden_of_earthly_delights.jpg?20200528082018"
             alt="The Garden of earthly delights"
-            style={{ transform: "scale(0.9)" }}
-          />
+            style={{ transform: "scale(0.9)" }} />
         </section>
       </Styled.Wrapper>
     </Styled.Container>
   )
 }
+
+
+<Styled.Container>
+  <Styled.Wrapper>
+    <Styled.Header>
+      Welcome to<br />
+      -The Garden of earhtly delights-
+    </Styled.Header>
+    <section>
+      <Styled.Image
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/800px-The_Garden_of_earthly_delights.jpg?20200528082018"
+        alt="The Garden of earthly delights"
+        style={{ transform: "scale(0.9)" }}
+      />
+    </section>
+    <Styled.Text>Use the Navigation bar on the top to indulge your senses with senseless apps</Styled.Text>
+  </Styled.Wrapper>
+</Styled.Container>

@@ -1,21 +1,24 @@
-import * as Styled from "./styled"
-import Button from "../../components/Button";
+import * as Styled from "../../styles/styled"
+import Button from "../../components/elements/Button";
 
 function Ducks() {
   return (
-    <Styled.Container>
-      <div className="Ducks">
-        <h1>Duck hunter game</h1>
+    <div className="Ducks">
+      <Styled.Container>
+        <Styled.Header>Duck hunter game</Styled.Header>
         <iframe width="800" height="600"
           id="duckwars" src="https://duck-wars.surge.sh/" title="Good 'ol duck game"></iframe>
-        <h2>Can you kill 'em all?</h2>
+        <Styled.SubHeader>
+          Can you kill 'em all?
+        </Styled.SubHeader>
         <Button
           to="/"
           value="Back to home"
           width="200px">
         </Button>
-      </div >
-    </Styled.Container>
+      </Styled.Container>
+    </div >
+
 
   );
 }

@@ -1,22 +1,25 @@
-import * as Styled from "./styled"
+import * as Styled from "../../styles/styled"
 
 
 function Home() {
   return (
+
     <Styled.Container>
       <Styled.Wrapper>
-
-        <h1>Welcome to The Garden of earhtly delights App</h1>
-
+        <Styled.Header>
+          Welcome to<br />
+          -The Garden of earhtly delights-
+        </Styled.Header>
         <section>
-          <img
+          <Styled.Image
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/800px-The_Garden_of_earthly_delights.jpg?20200528082018"
             alt="The Garden of earthly delights"
             style={{ transform: "scale(0.9)" }}
           />
         </section>
+        <Styled.Text>Use the Navigation bar on the top to indulge your senses with senseless apps</Styled.Text>
       </Styled.Wrapper>
-    </Styled.Container >
+    </Styled.Container>
   );
 }
 
