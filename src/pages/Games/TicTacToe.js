@@ -5,8 +5,9 @@ function TicTacToe() {
   return (<div className="TicTacToe" >
     <Styled.Container>
       <Styled.Header>Monkey Island's TicTacToe</Styled.Header>
-      <iframe width="900" height="600"
-        id="monkey-tic-tac-toe" src="https://palvarezimaz.github.io/tic-tac-toe/" title="Good 'ol TicTacToe in Monkey Island Style"></iframe>
+      <iframe
+        width="800" height="600"
+        id="monkey-tic-tac-toe" src="https://palvarezimaz.github.io/tic-tac-toe/" title="Good 'ol TicTacToe in Monkey Island Style" />
       <Styled.SubHeader>
         Beat the Legendary Captain LeChuck
       </Styled.SubHeader>
