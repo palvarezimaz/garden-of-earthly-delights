@@ -6,18 +6,33 @@ import About from "./pages/About/About";
 import TicTacToe from "./pages/Games/TicTacToe";
 import RomanToNumeral from "./pages/Apps/RomanToNumeral"
 import * as Styled from "./styles/styled"
+import { NavBarContainer, NavBarLinkContainer, NavBarLink } from "./styles/NavBar";
 
 function App() {
   return (
     <div className="App">
       <Styled.GeneralContainer>
-        <Styled.NavBar>
-          <Link to="/">Home</Link>
-          <Link to="/games/ducks">Ducks</Link>
-          <Link to="/games/tic-tac-toe">TicTacToe</Link>
-          <Link to="/apps/roman-numbers">Roman Numbers</Link>
-          <Link to="/about">About</Link>
-        </Styled.NavBar>
+        <NavBarContainer>
+          <NavBarLinkContainer>
+            <NavBarLink
+              className="nav-link active"
+              to="/">Home
+            </NavBarLink>
+            <NavBarLink
+              className="nav-link"
+              to="/games/ducks">Ducks</NavBarLink>
+            <NavBarLink
+              className="nav-link"
+              to="/games/tic-tac-toe">TicTacToe</NavBarLink>
+            <NavBarLink
+              className="nav-link"
+              to="/apps/roman-numbers">Roman Numbers</NavBarLink>
+            <NavBarLink
+              className="nav-link"
+              to="/about">About
+            </NavBarLink>
+          </NavBarLinkContainer>
+        </NavBarContainer>
 
         <Routes>
           <Route path="/" element={<HomeMobile />} />
@@ -27,7 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </Styled.GeneralContainer>
-    </div>
+    </div >
   );
 }
 

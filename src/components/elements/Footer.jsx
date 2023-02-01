@@ -13,7 +13,6 @@ export const StyledFooter = styled.footer`
     width: 100%;
     background-color: ${GardenColors.landingPageBackground};
     text-align: center;
-    // padding: 30px;
     padding-top: 50px;
     padding-bottom: 30px;
     font-family: 'Helvetica';

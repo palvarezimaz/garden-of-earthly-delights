@@ -3,12 +3,13 @@ import GardenColors from "../config/colors";
 
 export const GeneralContainer = styled.body`
 background-color: ${GardenColors.landingPageBackground};
-height: 100vh;`;
+height: 100vh;
+margin: 0 10px;`;
 
 export const Container = styled.main`
     background-color: ${GardenColors.landingPageBackground};
     height: 100%;
-    margin: 10px;
+
     box-sizing: border-box;
 `;
 export const Wrapper = styled.div`
@@ -19,15 +20,15 @@ export const Wrapper = styled.div`
     justify-content: space-between;
     align-items: center;
 `;
-export const NavBar = styled.nav`
-    background-color: ${GardenColors.landingPageBackground};
-    text-align: center;
-    padding: 30px;
-    margin: 10px:
-    display: flex-rows;
-    justify-content: space-between;
-    align-items: center;
-`;
+// export const NavBar = styled.nav`
+//     background-color: ${GardenColors.landingPageBackground};
+//     text-align: center;
+//     padding: 30px;
+//     margin: 10px:
+//     display: flex-rows;
+//     justify-content: space-between;
+//     align-items: center;
+// `;
 export const Header = styled.h1`
     text-align: center;
     color: ${GardenColors.primaryTextColor};
@@ -36,7 +37,7 @@ export const Header = styled.h1`
     font-weight: 700;
     font-size: 36px;
     line-height: 36px;
-    margin: 0 auto;
+    margin: 10 auto;
 `;
 
 export const SubHeader = styled.h2`
@@ -69,13 +70,4 @@ export const Image = styled.img`
     margin: 0 auto;
     display: flex;
     align-items: center;
-`;
-
-
-// Unused
-
-export const RightSection = styled.section`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 `;
