@@ -20,15 +20,7 @@ export const Wrapper = styled.div`
     justify-content: space-between;
     align-items: center;
 `;
-// export const NavBar = styled.nav`
-//     background-color: ${GardenColors.landingPageBackground};
-//     text-align: center;
-//     padding: 30px;
-//     margin: 10px:
-//     display: flex-rows;
-//     justify-content: space-between;
-//     align-items: center;
-// `;
+
 export const Header = styled.h1`
     text-align: center;
     color: ${GardenColors.primaryTextColor};

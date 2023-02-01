@@ -1,12 +1,12 @@
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import HomeMobile from "./pages/Home/HomeMobile";
 import Ducks from "./pages/Games/Ducks"
 import About from "./pages/About/About";
 import TicTacToe from "./pages/Games/TicTacToe";
 import RomanToNumeral from "./pages/Apps/RomanToNumeral"
 import * as Styled from "./styles/styled"
-import { NavBarContainer, NavBarLinkContainer, NavBarLink } from "./styles/NavBar";
+import { NavBarContainer, NavBarLinkContainer, NavBarLink, ButtonLink } from "./styles/NavBarStyled";
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
               className="nav-link"
               to="/about">About
             </NavBarLink>
+            <ButtonLink>&#8801;</ButtonLink>
           </NavBarLinkContainer>
         </NavBarContainer>
 

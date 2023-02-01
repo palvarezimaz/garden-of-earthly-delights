@@ -29,7 +29,23 @@ export const NavBarLink = styled(Link)`
   &:active{
     color: red;
   };
+  @media(max-width: 650px) {
+    display: none;
+  }
   `;
+
+export const ButtonLink = styled("button")`
+width: 70px;
+height: 50px;
+background: none;
+border: none:
+color: white;
+font-size: 45px;
+cursos: pointer;
+@media(min-width: 650px) {
+  display: none;
+}
+`;
 
 // export const NavBar = styled.nav`
 //     background-color: ${GardenColors.landingPageBackground};
