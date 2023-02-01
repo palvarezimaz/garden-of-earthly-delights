@@ -3,22 +3,19 @@ import { useState } from "react"
 import * as Styled from "../../styles/styled"
 import Input from "../../components/elements/Input";
 import Button from "../../components/elements/Button";
+import Footer from "../../components/elements/Footer";
 
 export default function RomanToNumeral() {
-    const [number, setNumber] = useState(null);
+
     const [correct, setCorrect] = useState('');
     const [convertedNumber, setConvertedNumber] = useState('');
-
-
-
+    const number = null
 
     const checkRoman = (event) => {
         const number = (event.target.value).toUpperCase();
         const romanNumeralRegex = new RegExp(
             /^M{0,9}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/
         );
-        console.log(number)
-
         if (!romanNumeralRegex.test(number)) {
             setCorrect('The number is not a Real-Roman')
             setConvertedNumber(null)
@@ -30,7 +27,6 @@ export default function RomanToNumeral() {
             numberConversion(number)
         }
     }
-
     const numberConversion = (number) => {
         let result = 0;
         const romansToNumbers = {
@@ -58,15 +54,12 @@ export default function RomanToNumeral() {
             setConvertedNumber(result)
         }
     }
-
-
     return (
         <Styled.Container>
             <Styled.Header>
                 Welcome to the Roman to Arabic number converter
             </Styled.Header>
             <fieldset>
-
                 <Input
                     labelName="Roman number to convert:"
                     type="text"
@@ -89,6 +82,7 @@ export default function RomanToNumeral() {
                 value="Back to home"
                 width="200px">
             </Button>
+            <Footer />
         </Styled.Container>
     );
 }

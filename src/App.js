@@ -10,22 +10,23 @@ import * as Styled from "./styles/styled"
 function App() {
   return (
     <div className="App">
-      <Styled.NavBar>
-        <Link to="/">Home</Link>
-        <Link to="/games/ducks">Ducks</Link>
-        <Link to="/games/tic-tac-toe">TicTacToe</Link>
-        <Link to="/apps/roman-numbers">Roman Numbers</Link>
-        <Link to="/about">About</Link>
-      </Styled.NavBar>
+      <Styled.GeneralContainer>
+        <Styled.NavBar>
+          <Link to="/">Home</Link>
+          <Link to="/games/ducks">Ducks</Link>
+          <Link to="/games/tic-tac-toe">TicTacToe</Link>
+          <Link to="/apps/roman-numbers">Roman Numbers</Link>
+          <Link to="/about">About</Link>
+        </Styled.NavBar>
 
-      <Routes>
-        <Route path="/" element={<HomeMobile />} />
-        <Route path="/games/ducks" element={<Ducks />} />
-        <Route path="/games/tic-tac-toe" element={<TicTacToe />} />
-        <Route path="/apps/roman-numbers" element={<RomanToNumeral />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-      <Styled.Footer>Copyright 2023 - Visit my portfolio at pabloai.net</Styled.Footer>
+        <Routes>
+          <Route path="/" element={<HomeMobile />} />
+          <Route path="/games/ducks" element={<Ducks />} />
+          <Route path="/games/tic-tac-toe" element={<TicTacToe />} />
+          <Route path="/apps/roman-numbers" element={<RomanToNumeral />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Styled.GeneralContainer>
     </div>
   );
 }

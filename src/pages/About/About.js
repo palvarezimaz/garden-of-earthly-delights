@@ -1,4 +1,5 @@
 import Button from "../../components/elements/Button";
+import Footer from "../../components/elements/Footer";
 import * as Styled from "../../styles/styled"
 
 
@@ -21,6 +22,7 @@ function About() {
             value="Back to home"
             width="200px">
           </Button>
+          <Footer />
         </Styled.Wrapper>
       </Styled.Container>
     </div>

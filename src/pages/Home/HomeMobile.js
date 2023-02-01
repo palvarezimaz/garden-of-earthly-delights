@@ -1,5 +1,6 @@
 import * as Styled from "../../styles/styled"
 import Home from "./Home"
+import Footer from "../../components/elements/Footer";
 
 const isMobile = window.innerWidth <= 600
 
@@ -41,5 +42,6 @@ export default function MobileHome() {
       />
     </section>
     <Styled.Text>Use the Navigation bar on the top to indulge your senses with senseless apps</Styled.Text>
+    <Footer />
   </Styled.Wrapper>
 </Styled.Container>
