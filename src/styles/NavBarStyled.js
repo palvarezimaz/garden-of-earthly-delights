@@ -6,7 +6,7 @@ export const NavBarContainer = styled.nav`
   background-color: ${GardenColors.landingPageBackground};
   width: 100%;
   height: 50px;
-  background-color: purple;
+  background-color: ${GardenColors.gradientFirstStop};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,10 +24,10 @@ export const NavBarLink = styled(Link)`
   margin: 10px;
   &: hover,
   &:focus{
-    color: blue;
+    color: ${GardenColors.gradientSecondStop};
   }
   &:active{
-    color: red;
+    color: ${GardenColors.gradientFirstStop};
   };
   @media(max-width: 650px) {
     display: none;
@@ -39,7 +39,7 @@ width: 70px;
 height: 50px;
 background: none;
 border: none:
-color: white;
+color: ${GardenColors.secondaryTextColor};
 font-size: 45px;
 cursos: pointer;
 @media(min-width: 650px) {

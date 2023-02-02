@@ -2,10 +2,15 @@ import GardenColors from "../../config/colors";
 import styled from "styled-components";
 
 
+
 export default function Footer() {
+  const date = new Date().getFullYear()
   return (
 
-    <StyledFooter>Copyright 2023 - Visit my portfolio at pabloai.net</StyledFooter>
+    <StyledFooter>
+      Copyright {date} - Visit my portfolio at <a href="http://pabloai.net">pabloai.net</a>
+
+    </StyledFooter>
 
   )
 }

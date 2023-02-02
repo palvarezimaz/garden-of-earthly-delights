@@ -59,23 +59,25 @@ export default function RomanToNumeral() {
             <Styled.Header>
                 Welcome to the Roman to Arabic number converter
             </Styled.Header>
-            <fieldset>
-                <Input
-                    labelName="Roman number to convert:"
-                    type="text"
-                    className="number-input"
-                    value={number}
-                    onChange={checkRoman} />
-            </fieldset>
-            <fieldset>
-                <Styled.Text>
-                    {correct}
-                </Styled.Text>
+            <Styled.TextWrapper>
+                <fieldset>
+                    <Input
+                        labelName="Roman number to convert:"
+                        type="text"
+                        className="number-input"
+                        value={number}
+                        onChange={checkRoman} />
+                </fieldset>
+                <fieldset>
+                    <Styled.Text>
+                        {correct}
+                    </Styled.Text>
 
-                <Styled.Text>
-                    {convertedNumber}
-                </Styled.Text>
-            </fieldset>
+                    <Styled.Text>
+                        {convertedNumber}
+                    </Styled.Text>
+                </fieldset>
+            </Styled.TextWrapper>
             {/* <button onClick={NumeralToRoman}>Romanize!</button> */}
             <Button
                 to="/"

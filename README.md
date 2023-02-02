@@ -1,4 +1,4 @@
-# The Garden of earthly delights
+# The Garden of Earthly Delights
 
 Tech stack: React, CSS by styled-components
 
@@ -12,7 +12,7 @@ The idea is to revisit, remember, practice, implement, expand, delete, forget or
 
 ## Current state of development
 
-You can check the live, surge-sponsored app at [garden-of-delights.surge.sh](https://garden-of-delights.surge.sh)
+You can check the live, surge-sponsored app at [garden-of-earthly-delights.surge.sh](garden-of-earthly-delights.surge.sh)
 
 The current status is **Under development**.
 
@@ -28,8 +28,20 @@ Bosch painted three large triptychs (the others are The Last Judgment of c. 1482
 (Source: Wikipedia)
 
 
-## On the -Ducks game-
+## On the Games: -Tic-Tac-Toe- & -Ducks game-
+
+### Monkey Island Tic-Tac-Toe
+This was my first project for the General Assembly Software Engineering Course, and, actually, my first ever project to reach some sort of MVP.
+Deployed on [https://palvarezimaz.github.io/tic-tac-toe/](https://palvarezimaz.github.io/tic-tac-toe/)
+The source code can be found in this repo: [https://github.com/palvarezimaz/tic-tac-toe](https://github.com/palvarezimaz/tic-tac-toe)
+
+### Ducks game
 Deployed on [duck-wars.surge.sh](www.duck-wars.surge.sh), brought to life by the lovely iframe HTML tag.
+The source code can be found in this repo: [https://github.com/palvarezimaz/duck-wars](https://github.com/palvarezimaz/duck-wars)
+
+
 
 *Licence notice*
 I don't own ANY rights to that code, I just slightly modified a stripped version of the game it and pushed it to surge.
+
+-----------

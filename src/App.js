@@ -10,6 +10,7 @@ import { NavBarContainer, NavBarLinkContainer, NavBarLink, ButtonLink } from "./
 
 function App() {
   return (
+
     <div className="App">
       <Styled.GeneralContainer>
         <NavBarContainer>

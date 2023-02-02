@@ -17,7 +17,12 @@ function Home() {
             style={{ transform: "scale(0.9)" }}
           />
         </section>
-        <Styled.Text>Use the Navigation bar on the top to indulge your senses with senseless apps</Styled.Text>
+        <Styled.TextWrapper>
+          <Styled.Text>
+            Use the Navigation bar on the top to indulge your senses with senseless apps
+
+          </Styled.Text>
+        </Styled.TextWrapper>
       </Styled.Wrapper>
     </Styled.Container>
   );

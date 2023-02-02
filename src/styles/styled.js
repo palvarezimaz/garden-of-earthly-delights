@@ -37,14 +37,18 @@ export const SubHeader = styled.h2`
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 36px;
+    line-height: 45px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     background: linear-gradient(90deg, ${GardenColors.gradientFirstStop} 24.2%, ${GardenColors.gradientSecondStop} 120.46%);
     background-clip: text;
     text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+`;
+
+export const TextWrapper = styled.div`
+margin: 0px 100px;
 `;
 
 export const Text = styled.p`
