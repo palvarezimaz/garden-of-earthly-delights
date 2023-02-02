@@ -8,6 +8,11 @@ function Bottles() {
       <Styled.Container>
         <Styled.Wrapper>
           <Styled.Header>99 bottles of beer on the wall</Styled.Header>
+          <Styled.TextWrapper>
+            <Styled.Text>
+              (check your audio volume first!)
+            </Styled.Text>
+          </Styled.TextWrapper>
           <iframe
             width="800"
             height="600"
