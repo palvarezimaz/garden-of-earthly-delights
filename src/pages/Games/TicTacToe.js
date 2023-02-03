@@ -1,17 +1,17 @@
 import * as Styled from "../../styles/styled"
 import Button from "../../components/elements/Button";
-import '../../App.css'
 import Footer from "../../components/elements/Footer";
+import GameFrame from "../../components/elements/GameFrame";
 
 function TicTacToe() {
-  return (<div className="TicTacToe" >
+  return (
     <Styled.Container>
       <Styled.Wrapper>
         <Styled.Header>Monkey Island's TicTacToe
         </Styled.Header>
-        <iframe
-          width="800" height="600"
-          id="monkey-tic-tac-toe" src="https://palvarezimaz.github.io/tic-tac-toe/" title="Good 'ol TicTacToe in Monkey Island Style" />
+        <GameFrame
+          src="https://palvarezimaz.github.io/tic-tac-toe/"
+          allow="geolocation 'self' https://palvarezimaz.github.io/tic-tac-toe/" />
         <Styled.SubHeader>
           Beat the Legendary Captain LeChuck
         </Styled.SubHeader>
@@ -23,8 +23,6 @@ function TicTacToe() {
         <Footer />
       </Styled.Wrapper>
     </Styled.Container>
-
-  </div>
   );
 }
 

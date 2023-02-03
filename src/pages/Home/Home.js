@@ -3,7 +3,6 @@ import * as Styled from "../../styles/styled"
 
 function Home() {
   return (
-
     <Styled.Container>
       <Styled.Wrapper>
         <Styled.Header>
@@ -20,7 +19,6 @@ function Home() {
         <Styled.TextWrapper>
           <Styled.Text>
             Use the Navigation bar on the top to indulge your senses with senseless apps
-
           </Styled.Text>
         </Styled.TextWrapper>
       </Styled.Wrapper>

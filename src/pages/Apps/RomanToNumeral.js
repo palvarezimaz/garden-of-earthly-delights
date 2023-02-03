@@ -9,7 +9,7 @@ export default function RomanToNumeral() {
 
     const [correct, setCorrect] = useState('');
     const [convertedNumber, setConvertedNumber] = useState('');
-    const number = null
+    const number = undefined
 
     const checkRoman = (event) => {
         const number = (event.target.value).toUpperCase();
@@ -18,7 +18,7 @@ export default function RomanToNumeral() {
         );
         if (!romanNumeralRegex.test(number)) {
             setCorrect('The number is not a Real-Roman')
-            setConvertedNumber(null)
+            setConvertedNumber('')
         } else if (number === '') {
             setCorrect('')
             setConvertedNumber('')

@@ -7,13 +7,12 @@ export default function Input(props) {
                 display: "flex",
                 margin: "10px auto",
                 flexDirection: "column",
-                width: "350px",
                 marginBottom: "15px",
                 marginTop: "15px",
                 textAlign: "center"
             }}
         >
-            <label style={{ fontSize: 25, color: GardenColors.primaryTextColor, }}>
+            <label style={{ fontSize: 16, color: GardenColors.primaryTextColor, }}>
                 {props.labelName}
             </label>
             <input

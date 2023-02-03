@@ -14,6 +14,7 @@ export default function MobileHome() {
         <Styled.Header>Welcome, stranger!</Styled.Header>
         <Styled.Text>
           This site is not optimized for Mobile use... yet. <br />
+          ...And it's cool secrets won't be properly displayed. <br />
           Please, come back when you are using a larger screen
         </Styled.Text>
         <section>

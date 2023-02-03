@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import GardenColors from "../config/colors";
 
-export const GeneralContainer = styled.body`
+export const GeneralContainer = styled.div`
 background-color: ${GardenColors.landingPageBackground};
 height: 100vh;
 margin: 0 10px;`;
@@ -48,7 +48,7 @@ export const SubHeader = styled.h2`
 `;
 
 export const TextWrapper = styled.div`
-margin: 0px 100px;
+margin: 0px 5%;
 `;
 
 export const Text = styled.p`
@@ -58,8 +58,16 @@ export const Text = styled.p`
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
-    line-height: 28px;
 `;
+
+export const FieldInput = styled.fieldset`
+    width: 800%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid ${GardenColors.secondaryTextColor}
+`
 
 export const Image = styled.img`
     width: 100%;
