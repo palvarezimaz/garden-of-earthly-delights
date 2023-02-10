@@ -11,7 +11,8 @@ function TicTacToe() {
         </Styled.Header>
         <GameFrame
           src="https://palvarezimaz.github.io/tic-tac-toe/"
-          allow="geolocation 'self' https://palvarezimaz.github.io/tic-tac-toe/" />
+        // allow="geolocation 'self' https://palvarezimaz.github.io/tic-tac-toe/"
+        />
         <Styled.SubHeader>
           Beat the Legendary Captain LeChuck
         </Styled.SubHeader>

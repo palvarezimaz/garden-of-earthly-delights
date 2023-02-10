@@ -10,7 +10,8 @@ function Ducks() {
         <Styled.Header>Duck hunter game</Styled.Header>
         <GameFrame
           src="https://duck-wars.surge.sh/"
-          allow="geolocation 'self' https://duck-wars.surge.sh/" />
+        // allow="geolocation 'self' https://duck-wars.surge.sh/"
+        />
         <Styled.SubHeader>
           Can you kill 'em all?
         </Styled.SubHeader>

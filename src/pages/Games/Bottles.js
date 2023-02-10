@@ -16,7 +16,8 @@ function Bottles() {
 
         <GameFrame
           src="https://stark-plateau-14754.herokuapp.com/"
-          allow="geolocation 'self' https://stark-plateau-14754.herokuapp.com/" />
+        // allow="geolocation 'self' https://stark-plateau-14754.herokuapp.com/"
+        />
         <Styled.SubHeader>
           Can you get the counter to 0?
         </Styled.SubHeader>

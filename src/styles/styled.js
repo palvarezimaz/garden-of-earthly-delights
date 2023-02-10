@@ -9,8 +9,9 @@ margin: 0 10px;`;
 export const Container = styled.main`
     background-color: ${GardenColors.landingPageBackground};
     height: 100%;
-
+    font-family: 'Helvetica';
     box-sizing: border-box;
+
 `;
 export const Wrapper = styled.div`
     width: 100%;
@@ -19,6 +20,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: ${GardenColors.landingPageBackground};
 `;
 
 export const Header = styled.h1`
@@ -66,7 +68,8 @@ export const FieldInput = styled.fieldset`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid ${GardenColors.secondaryTextColor}
+    border: 1px solid ${GardenColors.secondaryTextColor};
+    font-family: 'Helvetica'
 `
 
 export const Image = styled.img`

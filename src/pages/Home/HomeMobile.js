@@ -13,9 +13,8 @@ export default function MobileHome() {
       <Styled.Wrapper>
         <Styled.Header>Welcome, stranger!</Styled.Header>
         <Styled.Text>
-          This site is not optimized for Mobile use... yet. <br />
-          ...And it's cool secrets won't be properly displayed. <br />
-          Please, come back when you are using a larger screen
+          This site is not fully for Mobile use... yet. <br />
+          ...And some of it's cool secrets won't be properly displayed. <br />
         </Styled.Text>
         <section>
           <Styled.Image
@@ -23,6 +22,9 @@ export default function MobileHome() {
             alt="The Garden of earthly delights"
             style={{ transform: "scale(0.9)" }} />
         </section>
+        <Styled.Text>
+          You can still check it out, but if you find some glitches (iframes.. ejem), come back when you are using a larger screen
+        </Styled.Text>
       </Styled.Wrapper>
     </Styled.Container>
   )

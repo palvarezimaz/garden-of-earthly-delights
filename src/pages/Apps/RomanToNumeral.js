@@ -62,7 +62,7 @@ export default function RomanToNumeral() {
             <Styled.TextWrapper>
                 <fieldset>
                     <Input
-                        labelName="Roman number to convert:"
+                        labelName="Convert roman to arabic"
                         type="text"
                         className="number-input"
                         value={number}

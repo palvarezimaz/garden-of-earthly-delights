@@ -7,40 +7,13 @@ import TicTacToe from "./pages/Games/TicTacToe";
 import RomanToNumeral from "./pages/Apps/RomanToNumeral"
 import Bottles from "./pages/Games/Bottles";
 import * as Styled from "./styles/styled"
-import { NavBarContainer, NavBarLinkContainer, NavBarLink, ButtonLink } from "./styles/NavBarStyled";
+import NavBar from "./components/layouts/Navbar";
+
 
 function App() {
   return (
     <Styled.GeneralContainer>
-      <NavBarContainer>
-        <NavBarLinkContainer>
-          <NavBarLink
-            className="nav-link active"
-            to="/">Home
-          </NavBarLink>
-          <NavBarLink
-            className="nav-link"
-            to="/games/ducks">Ducks
-          </NavBarLink>
-          <NavBarLink
-            className="nav-link"
-            to="/games/tic-tac-toe">TicTacToe
-          </NavBarLink>
-          <NavBarLink
-            className="nav-link"
-            to="/games/99-bottles">99 Bottles
-          </NavBarLink>
-          <NavBarLink
-            className="nav-link"
-            to="/apps/roman-numbers">Roman Numbers
-          </NavBarLink>
-          <NavBarLink
-            className="nav-link"
-            to="/about">About
-          </NavBarLink>
-          <ButtonLink>&#8801;</ButtonLink>
-        </NavBarLinkContainer>
-      </NavBarContainer>
+      <NavBar />
 
       <Routes>
         <Route path="/" element={<HomeMobile />} />

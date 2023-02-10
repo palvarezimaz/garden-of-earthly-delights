@@ -5,13 +5,15 @@ import GardenColors from "../config/colors";
 export const NavBarContainer = styled.nav`
   background-color: ${GardenColors.landingPageBackground};
   width: 100%;
-  height: 50px;
+  height:${(props) => (props.extend ? "100vh" : "50px")};
   background-color: ${GardenColors.gradientFirstStop};
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media(min-width: 650px){
+    height: 60px;
+  }
   `;
-
 export const NavBarLinkContainer = styled.div`
   display: flex;
   `;
@@ -47,12 +49,32 @@ export const ButtonLink = styled("button")`
   }
   `;
 
-// export const NavBar = styled.nav`
-//     background-color: ${GardenColors.landingPageBackground};
-//     text-align: center;
-//     padding: 30px;
-//     margin: 10px:
-//     display: flex-rows;
-//     justify-content: space-between;
-//     align-items: center;
-// `;
+///// Extended styles
+export const ExtendedNavBar = styled("div")`
+  display: flex;
+  background-color: ${GardenColors.gradientFirstStop};
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  padding: 10px;
+  &:hover {
+      box-shadow: 5px 5px 10px 2px #0F0100;
+  @media (min-width: 650px){
+    display: none;
+
+}`
+
+export const NavBarLinkExtended = styled(Link)`
+  color: white;
+  font-size: x-large;
+  font-family: 'Helvetica';
+  text-decoration: none;
+  margin: 10px;
+  &:hover,
+  &:focus{
+    color: ${GardenColors.gradientSecondStop};
+};
+&:active{
+    color: ${GardenColors.gradientFirstStop};
+};
+  `
