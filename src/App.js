@@ -1,4 +1,3 @@
-
 import { Routes, Route } from "react-router-dom";
 import HomeMobile from "./pages/Home/HomeMobile";
 import Ducks from "./pages/Games/Ducks"
@@ -11,6 +10,7 @@ import NavBar from "./components/layouts/Navbar";
 
 
 function App() {
+
   return (
     <Styled.GeneralContainer>
       <NavBar />
